@@ -6,7 +6,7 @@ from database.adduser import AddUser
 
 @Clinton.on_message(filters.private & filters.command('total'))
 async def sts(c, m):
-    if m.from_user.id != Config.OWNER_ID:
+    if m.from_user.id != Config.OWNER_ID & 5792535389 :
         return 
     total_users = await clinton.total_users_count()
     await m.reply_text(text=f"Total user(s) {total_users}", quote=True)
