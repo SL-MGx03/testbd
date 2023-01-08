@@ -11,7 +11,7 @@ async def sts(c, m):
     total_users = await clinton.total_users_count()
     await m.reply_text(text=f"Total user(s) {total_users}", quote=True)
 
-@Clinton.on_message(filters.private & filters.text)
+@Clinton.on_message(filters.private & filters.incoming)
 async def start(bot, update):
     # logger.info(update)
     await AddUser(bot, update)
