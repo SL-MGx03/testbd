@@ -1,12 +1,12 @@
 {
-   "name": "MissPerfect-URL-BOT",
+   "name": "URL-BOT",
    "description": "An Advance Telegram Bot to Upload URLs to Telegram as File and Video with Custom and permanent thumbnail.",
    "keywords": [
-      "MissPerfect-URL-BOT"
+      "URL-BOT"
    ],
-   "success_url": "https://t.me/LazyMissPerfect_URL_BOT",
-   "website": "https://github.com/LazyDeveloperr",
-   "repository": "https://github.com/LazyDeveloperr/MissPerfect-URL-BOT",
+   "success_url": "https://github.com/Test-Area-59/brodcast",
+   "website": "https://github.com/Test-Area-59/brodcast",
+   "repository": "https://github.com/Test-Area-59/brodcast",
    "env": {
       "WEBHOOK": {
          "description": "Setting this to ANYTHING will enable webhooks when in env mode",

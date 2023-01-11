@@ -2,11 +2,7 @@ class Translation(object):
 
     ERROR = "<b>ERROR :</b> {}"
 
-    START_TEXT = """Hi {},
-Myself Lazy-MissPerfect !
-You can upload all https link including sony urls, voot, etc... & direct links \n\n Thank you @mRiderDM for this awesome bot
-
-/help for more details!"""
+    START_TEXT = """Bcast On"""
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""

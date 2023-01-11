@@ -1,5 +1,6 @@
 https://github.com/Mahesh0253/pyrogram/archive/inline.zip
 numpy
+yt-dlp
 Pillow
 hachoir
 olefile
